@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="Colourtech logo">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E7CE88" />
+      <stop offset="100%" stop-color="#C9A84C" />
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="36" fill="#0D1B2A" />
+  <circle cx="120" cy="120" r="84" fill="none" stroke="url(#gold)" stroke-width="12" />
+  <path
+    d="M77 120c0-24 19-43 43-43h26v18h-26c-14 0-25 11-25 25s11 25 25 25h26v18h-26c-24 0-43-19-43-43z"
+    fill="url(#gold)"
+  />
+</svg>

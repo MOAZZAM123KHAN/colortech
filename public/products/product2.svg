@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420">
+  <defs>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00B3FF"/>
+      <stop offset="100%" stop-color="#0061FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="420" rx="28" fill="#ECF9FF"/>
+  <rect x="70" y="70" width="180" height="280" rx="24" fill="url(#g2)" opacity="0.85"/>
+  <rect x="280" y="95" width="290" height="210" rx="24" fill="white"/>
+  <text x="310" y="170" font-size="42" fill="#0D1B2A" font-family="Arial">CT01</text>
+  <text x="310" y="220" font-size="26" fill="#475569" font-family="Arial">Alt View</text>
+</svg>
