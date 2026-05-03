@@ -9,7 +9,6 @@ export const catalogProducts = [
     price: "Price: Coming Soon",
     images: [
       "/Htl/WhatsApp%20Image%202026-05-03%20at%205.57.30%20PM.jpeg",
-      "/Htl/WhatsApp%20Image%202026-05-03%20at%205.59.10%20PM%20(2).jpeg",
     ],
   },
   {
@@ -23,6 +22,7 @@ export const catalogProducts = [
     images: [
       "/Htl/WhatsApp%20Image%202026-05-03%20at%205.59.10%20PM.jpeg",
       "/Htl/WhatsApp%20Image%202026-05-03%20at%205.59.11%20PM.jpeg",
+      "/Htl/WhatsApp%20Image%202026-05-03%20at%205.59.10%20PM%20(2).jpeg",
     ],
   },
   {

@@ -35,9 +35,9 @@ export default function ProductCard({ product }) {
 
   return (
     <>
-      <article className="group overflow-hidden rounded-2xl border border-slate-100 bg-white shadow-sm shadow-slate-900/5 transition duration-500 hover:-translate-y-1.5 hover:shadow-2xl hover:shadow-slate-900/10">
-        <div className="relative overflow-hidden bg-gradient-to-br from-[#FFF9EC] to-[#F7FBFF] p-5">
-          <div className="flex h-56 items-center justify-center rounded-xl bg-white/45 p-3 sm:h-60">
+      <article className="group overflow-hidden rounded-2xl border border-slate-100 bg-white shadow-sm shadow-slate-900/5 transition duration-500 hover:-translate-y-1.5 hover:shadow-2xl hover:shadow-slate-900/10 lg:flex lg:h-full lg:min-h-[560px] lg:flex-col xl:min-h-[620px]">
+        <div className="relative overflow-hidden bg-gradient-to-br from-[#FFF9EC] to-[#F7FBFF] p-5 lg:p-6">
+          <div className="flex h-56 items-center justify-center rounded-xl bg-white/45 p-3 sm:h-60 lg:h-64 lg:p-5 xl:h-72">
             <img
               src={product.images[activeImage]}
               alt={product.title}
@@ -50,7 +50,7 @@ export default function ProductCard({ product }) {
           </span>
         </div>
 
-        <div className="space-y-4 p-5">
+        <div className="space-y-4 p-5 lg:flex lg:flex-1 lg:flex-col lg:p-6">
           <h3 className="text-lg font-semibold text-slate-900">{product.title}</h3>
           <div className="flex items-center justify-between gap-3 text-sm">
             <span className="rounded-full bg-sky-50 px-3 py-1 font-medium text-sky-700">{product.size}</span>
@@ -84,7 +84,7 @@ export default function ProductCard({ product }) {
           <button
             type="button"
             onClick={openModal}
-            className="w-full rounded-xl bg-[#0D1B2A] px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition duration-300 hover:bg-[#13263C] hover:shadow-md"
+            className="w-full rounded-xl bg-[#0D1B2A] px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition duration-300 hover:bg-[#13263C] hover:shadow-md lg:mt-auto"
           >
             View Details
           </button>

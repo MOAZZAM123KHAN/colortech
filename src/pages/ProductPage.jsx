@@ -21,7 +21,7 @@ export default function ProductPage() {
       <CollectionNavbar />
 
       <main className="bg-white text-slate-900">
-        <div className="mx-auto w-full max-w-7xl px-4 py-10 sm:px-6 sm:py-12 lg:px-10 lg:py-14">
+        <div className="mx-auto w-full max-w-7xl px-4 py-10 sm:px-6 sm:py-12 lg:max-w-[1400px] lg:px-10 lg:py-16 xl:max-w-[1500px]">
           <div className="mb-12 text-center sm:mb-14">
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#C9A84C]">
               Product Catalog
@@ -36,8 +36,8 @@ export default function ProductPage() {
             </p>
           </div>
 
-          <section id="htl" className="mb-20 scroll-mt-28 sm:scroll-mt-32">
-            <div className="mb-8">
+          <section id="htl" className="mb-20 scroll-mt-28 sm:scroll-mt-32 lg:mb-24">
+            <div className="mb-8 lg:mb-10">
               <h2 className="font-[Georgia] text-3xl text-[#0D1B2A]">
                 Heat Transfer Labels (HTL)
               </h2>
@@ -46,7 +46,7 @@ export default function ProductPage() {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 xl:grid-cols-4">
+            <div className="mx-auto grid grid-cols-1 gap-5 sm:grid-cols-2 lg:max-w-5xl lg:grid-cols-2 lg:gap-8 xl:max-w-[1280px] xl:grid-cols-3 xl:gap-10">
               {htlProducts.map((product) => (
                 <ProductCard key={product.code} product={product} />
               ))}
@@ -54,7 +54,7 @@ export default function ProductPage() {
           </section>
 
           <section id="iml" className="scroll-mt-28 sm:scroll-mt-32">
-            <div className="mb-8">
+            <div className="mb-8 lg:mb-10">
               <h2 className="font-[Georgia] text-3xl text-[#0D1B2A]">
                 In-Mold Labels (IML)
               </h2>
@@ -63,7 +63,7 @@ export default function ProductPage() {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 xl:grid-cols-4">
+            <div className="mx-auto grid grid-cols-1 gap-5 sm:grid-cols-2 lg:max-w-5xl lg:grid-cols-2 lg:gap-8 xl:max-w-[1280px] xl:grid-cols-3 xl:gap-10">
               {imlProducts.map((product) => (
                 <ProductCard key={product.code} product={product} />
               ))}
