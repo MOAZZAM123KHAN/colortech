@@ -94,7 +94,7 @@ export default function Footer() {
 
       <div className="mx-auto mt-10 flex w-full max-w-7xl flex-col gap-2 border-t border-gray-800 pt-6 text-xs sm:flex-row sm:items-center sm:justify-between">
         <p>© {new Date().getFullYear()} Colourtech. All rights reserved.</p>
-        <p>Mumbai, India</p>
+        <p>Plot No B2B,Sa. Supertech industrial park,at-village sanjan,Ta. Umbergoan, District-Valsad-396150 India</p>
       </div>
     </footer>
   );

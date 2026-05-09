@@ -136,7 +136,7 @@ Company: ${company}
 Message: ${message}
     `;
 
-    const whatsappURL = `https://wa.me/919651497211?text=${encodeURIComponent(
+    const whatsappURL = `https://wa.me/919214821548?text=${encodeURIComponent(
       whatsappMessage
     )}`;
 
@@ -182,11 +182,11 @@ Message: ${message}
               },
               {
                 icon: "📞",
-                text: "+91 9651497211",
+                text: "+91 9214821548",
               },
               {
                 icon: "✉️",
-                text: "hello@colourtechlabels.com",
+                text: "colourtech82@gmail.com",
               },
             ].map((item) => (
               <div key={item.text} className="flex items-start gap-3">
